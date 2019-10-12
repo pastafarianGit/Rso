@@ -17,7 +17,7 @@ public class ImageBean {
     @PersistenceContext(unitName = "images-jpa")
     private EntityManager em;
 
-    public List<ImageEntity> getRealEstateList(){
+    public List<ImageEntity> getImageList(){
         Query query = em.createNamedQuery("Image.getAll", ImageEntity.class);
         return query.getResultList();
     }

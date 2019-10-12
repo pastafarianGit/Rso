@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "images")
 @NamedQueries(value =
         {
-                @NamedQuery(name = "ImageEntity.getAll", query = "SELECT im FROM ImageEntity im")
+                @NamedQuery(name = "Image.getAll", query = "SELECT im FROM ImageEntity im")
         })
 public class ImageEntity {
     @Id
