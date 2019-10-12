@@ -1,0 +1,2 @@
+INSERT INTO images (title, description, width, height, uri) VALUES ('Our fist image', 'This is the first image that we created for the RSO course.', 1280, 1325, 'https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/tess_first_light-tb.jpg');
+INSERT INTO comments (image_id, authorId, text) VALUES ('1', '123', 'HALLLLLO');
